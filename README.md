@@ -1,2 +1,2 @@
-# exercise-js
+# exercise-js-1
 یازده تمرین جاوا اسکریپت 
