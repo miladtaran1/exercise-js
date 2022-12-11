@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-div{
+    width: 100%;
+    background-color: rgb(63, 63, 63) !important;
+    display: inline-block;
+    border-bottom: 15px solid rgb(214, 4, 4);
+    margin-bottom: 10px;
+}
+ul{
+    position: sticky;
+    right: 80px;
+    margin: 0;
+    display: inline-flex;
+    float: right;
+}
+ul li{
+    cursor: pointer;
+    padding: 25px 20px;
+    margin: 0 5px;
+    list-style: none;
+    background-color: rgb(214, 4, 4);
+    color: beige;
+}
+ul li:hover{
+    background-color: rgb(214, 175, 4);
+}
+.div-sec-1{
+    display: block;
+}
+.left-sec{
+    width: 33%;
+    float: left;
+}
+.right-sec{
+    width: 44%;
+    float: right;
+}
+.title-div{
+    width: 600px;
+    margin: 0 20px 0 100px;
+}
+.title-div .sarbarg-left{
+    font-size: 40px;
+    color: rgb(131, 131, 131);
+}
+.title-div img{
+    width: 600px;
+}
+.title-div .title-1{
+    width: 650px;
+    font-size: 17px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 5px solid rgb(214, 4, 4);
+    color: rgb(73, 73, 73);
+}
+.title-div .title-2{
+    font-size: 17px;
+    width: 100%;
+    color: rgb(73, 73, 73);
+}
+.title-div .sarbarg-left-2{
+    font-size: 21px;
+    font-weight: 100;
+    color: rgb(117, 118, 119);
+}
+.right-div-1{
+    width: 350px;
+    padding: 25px;
+    margin: 50px;
+    margin-right: 90px;
+    border-top: 15px solid rgb(214, 4, 4);
+    background-color: rgb(110, 110, 110);
+    color: snow;
+}

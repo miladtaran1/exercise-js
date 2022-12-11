@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-div{
+   margin: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(49,82,180,1) 0%, rgba(0,212,255,1) 100%);
+}
+.header-left-div{
+    display: flex;
+    justify-items: center;
+}
+.header-left-div .bi-list{
+    font-size: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 70px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+}
+.header-left-div p{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.header-div .bi-three-dots-vertical{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-right: 55px;
+}
+.div-sec-2{
+    width: 90%;
+    display: flex;
+   
+    margin: 0 auto;
+}
+.div-sec-2 .sec-2-div-left{
+    width: 60%;
+    
+    height: 20px;
+}
+.div-sec-2 .sec-2-div-right{
+    position: relative;
+    width: 40%;
+    
+    height: 120px;
+}
+.div-sec-2 .sec-2-div-right input {
+    position: absolute;
+    top: 45px;
+    left: 18%;
+    width: 360px;
+    height: 60px;
+    text-align: left;
+    border: 2px solid rgb(39, 226, 226);
+    border-radius: 15px;
+}
+.div-sec-2 .sec-2-div-right input::placeholder{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(168, 167, 167);
+}
+.div-sec-2 .sec-2-div-left{
+    position: relative;
+}
+.div-sec-2 .sec-2-div-left .sec-2-div-left-card{
+    width: 610px;
+    background-color: rgb(0, 183, 255);
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    border-radius: 18px;
+    display: flex;
+    vertical-align: middle;
+    box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+}
+.div-sec-2 .sec-2-div-left .sec-2-div-left-card img{
+    width:70px;
+    height:70px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 2px solid rgba(134, 135, 153, 0.342);
+    border-radius: 45px;
+}
+.div-sec-2 .sec-2-div-left .sec-2-div-left-card .person-information{
+    width: 300px;
+    margin: 0 28px;
+}
+.div-sec-2 .sec-2-div-left .sec-2-div-left-card .person-information .person-name{
+   font-size: 22px;
+   margin-top: 22px;
+   color: rgb(255, 255, 255);
+}
+.div-sec-2 .sec-2-div-left .sec-2-div-left-card .person-information .person-prayer{
+   font-size: 12px;
+   margin-top: -13px;
+   color: rgb(230, 230, 230);
+}
+.sec-2-div-left .person-icon .bi-bell{
+  color: aliceblue;
+  background-color: rgb(0, 195, 255);
+  font-size: 22px;
+  
+  border-radius: 45px;
+  padding: 10px 12px;
+  position: absolute;
+  top: 22%;
+  right: -22px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.div-sec-3 .div-sec-3-left{
+    display: inline-grid;
+    width: 90px;
+    height: 320px;
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    margin-left: 9%;
+    margin-top: 25px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.div-sec-3{
+    display: flex;
+}
+.div-sec-3-left{
+    padding-top: 25px;
+}
+.div-sec-3 .div-sec-3-left i::before{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border: 1px solid seashell;
+    border-radius: 45px;
+    padding: 10px;
+    
+}
+.div-sec-3 .div-sec-3-middle{
+    display: inline-grid;
+    width: 240px;
+    height: 345px;
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 25px;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.div-sec-3-middle .div-sec-3-middle-Calendar{
+    display: flex;
+    margin-bottom: -12px;
+}
+.div-sec-3-middle .div-sec-3-middle-Calendar-2{
+    width: 220px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+    border-radius: 15px;
+    background-color: rgba(160, 160, 160, 0.603);
+}
+.div-sec-3-middle .div-sec-3-middle-Calendar i{
+    width: 20px;
+    margin: 25px 30px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.div-sec-3-middle .middle-Calendar-title{
+    text-align: left;
+    width: 150px;
+    height: 60px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.div-sec-3-middle .middle-Calendar-title .sarbarg{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: -7px;
+}
+.div-sec-3-middle .middle-Calendar-title .title{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.sec-3-header{
+    display: flex;
+}
+.div-sec-3-right{
+    margin-top: 28px;
+    margin-left: 2%;
+    width: 57.5%;
+    height: 300px;
+}
+.div-sec-3-right .doc-information{
+    display: flex;
+    justify-content: space-around;
+}
+.div-sec-3-right .doc-information .doc-info-1{
+    width: 120px;
+    height: 125px;
+   
+}
+.sec-3-header .sec-3-head-left {
+    margin-top: 0;
+    width: 25%;
+    margin-left: 5px;
+    color: rgb(94, 94, 94);
+}
+.sec-3-header .sec-3-head-right{
+    width: 84%;
+   border-bottom: 2px solid rgb(95, 89, 89);
+}
+.doc-information{
+    margin-top: 35px;
+}
+.doc-info-1{
+    position: relative;
+    border: 2px solid deepskyblue;
+    border-radius: 16px;
+}
+.doc-info-1 i{
+    font-size: 38px;
+    position: absolute;
+    top: -40px;
+    left: 16%;
+    padding: 18px 21px;
+    
+    border-radius: 45px;
+    background-color: rgb(0, 153, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.doc-info-1 .sarbarg{
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    color: rgb(44, 44, 44);
+    font-size: 18px;
+}
+.doc-info-1 .title{
+    position: absolute;
+    top: 62%;
+    left: 27px;
+    color: rgb(20, 186, 236);
+    font-size: 15px;
+}
+.doc-info-2{
+    position: relative;
+    width: 120px;
+    height: 125px;
+    border: 2px solid deepskyblue;
+    border-radius: 16px;
+}
+.doc-info-2 i{
+    font-size: 65px;
+    position: absolute;
+    top: 25px;
+    left: 26px;
+    color: rgb(180, 177, 177);
+}
+.bottom-info-sec3{
+    display: flex;
+    margin: 15px;
+    width: 96%;
+    height: 125px;
+    justify-content: space-around;
+}
+.bottom-info-sec3 .sec-left{
+    width: 48%;
+    border-radius: 18px;
+    background-color: rgb(0, 153, 255);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.bottom-info-sec3 .sec-left .sec-top{
+    width: 100%;
+    height: 48%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-info-sec3 .sec-left .sec-bottom{
+    width: 100%;
+    height: 50%;
+    color: rgb(255, 255, 255);
+}
+.sec-left .item-div{
+    display: flex;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    width: 65%;
+}
+.sec-top i{
+    font-size: 25px;
+    margin: 17px;
+    margin-left: -3px;
+}
+.sec-bottom{
+    display: flex;
+    
+}
+.sec-bottom .sec-right-b,.sec-left-b{
+    display: flex;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.left-docu img{
+    width: 25px;
+    height: 25px;
+    border-radius: 45px;
+    border: 2px solid rgba(124, 122, 122, 0.342);
+}
+.right-docu .sarbarg{
+    margin: -1px 12px;
+    font-size: 14px;
+}
+.right-docu .title{
+    margin: 0 12px;
+    font-size: 11px;
+}

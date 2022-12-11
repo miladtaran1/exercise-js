@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.header-div{
+   
+    width: 100%;
+    display: block;
+   
+}
+.div-2{
+    width: 100%;
+    height: 60px;
+   border-bottom: 2px solid rgba(134, 131, 131, 0.199);
+}
+.person{
+    position: absolute;
+    right: 60px;
+    width: 25px;
+    margin-top: 15px;
+    border: 2px solid rgba(170, 167, 167, 0.61);
+    border-radius: 45px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+ul{
+    position: sticky;
+    right: 35px;
+    display: inline-flex;
+    float: right;
+}
+ul li{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 20px;
+    list-style: none;
+    color: rgb(77, 77, 77);
+}
+ul li:hover{
+  color: rgb(112, 9, 209);
+}
+.header-list{
+    position: absolute;
+    left: 25%;
+}
+.logo{
+    cursor: pointer;
+    width: 30px;
+    margin-top: 17px;
+    margin-left: 70px;
+    position: absolute;
+    left: 0;
+}
+.mom-div{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.div-sec-1{
+    width: 350px;
+    margin-left: 18px;
+}
+.div-sec-1 .sarbarg{
+    font-size: 30px;
+    
+}
+.sec-2-div-mom{
+    
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.sec-2-div-mom .left-sec{
+    width: 50%;
+    height: 750px;
+   
+    margin-bottom: 29px;
+}
+.sec-2-div-mom .right-sec{
+    width: 50%;
+   
+}
+.sec-2-div-mom .left-sec{
+    display: block;
+}
+.left-sec .left-sec-bottom{
+    display: flex;
+}
+.left-sec .left-sec-top{
+    width: 95%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    
+}
+.left-sec-bottom .title-bottom-left-sec{
+    width: 45%;
+    height: 420px;
+   
+    margin: 0 auto;
+    margin-bottom: 29px;
+}
+.left-sec-bottom .title-bottom-right-sec{
+    width: 45%;
+    height: 420px;
+   
+    margin: 0 auto;
+    margin-bottom: 29px;
+}
+.title-top-left-sec img{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    border-radius: 15px;
+    filter: brightness(0.50);
+}
+.title-top-left-sec{
+    position: relative;
+}
+.title-top-left-sec .sarbarg-pic{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+
+}
+.title-top-left-sec .title-pic{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 200px;
+
+}
+.title-top-left-sec button{
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.title-bottom-left-sec img{
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    border-radius: 19px;
+    
+}
+.title-bottom-right-sec img{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    border-radius: 19px;
+    filter: brightness(0.50);
+}
+.title-bottom-right-sec{
+    position: relative;
+}
+.title-bottom-left-sec{
+    position: relative;
+}
+.title-bottom-right-sec .sarbarg-pic{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.title-bottom-right-sec .title-pic{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 220px;
+}
+.title-bottom-right-sec button{
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.title-bottom-left-sec img{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    border-radius: 19px;
+    filter: brightness(0.50);
+}
+.title-bottom-left-sec .sarbarg-pic{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.title-bottom-left-sec .title-pic{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 220px;
+}
+.title-bottom-left-sec button{
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+}

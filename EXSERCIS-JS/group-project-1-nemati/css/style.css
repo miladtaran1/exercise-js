@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-div{
+   
+    width: 100%;
+    background-color: rgb(63, 63, 63) !important;
+    display: inline-block;
+}
+ul{
+    position: sticky;
+    right: 35px;
+    display: inline-flex;
+    float: right;
+}
+ul li{
+    cursor: pointer;
+    padding: 5px 20px;
+    list-style: none;
+    color: beige;
+}
+ul li:hover{
+    border-bottom: olive 2px solid;
+}
+.logo{
+    cursor: pointer;
+    width: 55px;
+    margin-top: 4px;
+    margin-left: 45px;
+}
+.bg-image{
+    background-repeat: no-repeat;
+   width: 100%;
+   height: 640px;
+   filter: brightness(0.30);
+}
+.bg-img-div{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.welcom-txt-div{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: auto;
+}
+.welcom-txt-div p,h1{
+    color: beige;
+    width: 550px;
+    text-align: center;
+    cursor: default;
+}
+.welcom-txt-div h1{
+   font-size: 45px;
+}
+.welcom-txt-div button{
+    cursor: pointer;
+    margin-left: 38%;
+    margin-top: 25px;
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: rgb(156, 156, 156);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+}
+.section-two{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-2-div-1{
+    text-align: center;
+    margin-top: -70px;
+    width: 270px;
+    height: 220px;
+    background-color: rgb(83, 158, 106);
+    border: solid 2px slategrey;
+    z-index: 22;
+    overflow: hidden;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: none;
+    transition: 0.5s;
+}
+.sec-2-div-1:hover {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: yellowgreen;
+}
+.sec-2-div-1:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-1:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-1:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-1:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-1:hover .p-hover{
+    display: block !important;
+}
+.sec-2-div-1:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-1:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-1:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-1:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-1:hover .p-hover{
+    display: block !important;
+}
+ i.bi-heart-pulse::before{
+    margin-top: 35px;
+    padding: 12px;
+    color: rgb(83, 158, 105);
+    background-color: whitesmoke;
+    border-radius: 100%;
+    font-size: 32px;
+}
+.sec-2-div-1 p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.sec-2-div-1 span{
+    font-size: 14px;
+    color: white;
+    padding: 0 12px;
+   
+}
+
+
+
+
+.sec-2-div-2{
+    text-align: center;
+    margin-top: -70px;
+    width: 270px;
+    height: 220px;
+    background-color: rgb(161, 132, 78);
+    border: solid 2px slategrey;
+    z-index: 22;
+    overflow: hidden;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: none;
+    transition: 0.5s;
+}
+.sec-2-div-2:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: yellowgreen;
+}
+.sec-2-div-2:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-2:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-2:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-2:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-2:hover .p-hover{
+    display: block !important;
+}
+.sec-2-div-2:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-2:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-2:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-2:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-1:hover .p-hover{
+    display: block !important;
+}
+ i.bi-arrow-counterclockwise::before{
+    margin-top: 35px;
+    padding: 12px;
+    color: rgb(161, 132, 78);
+    background-color: whitesmoke;
+    border-radius: 100%;
+    font-size: 32px;
+}
+.sec-2-div-2 p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.sec-2-div-2 span{
+    font-size: 14px;
+    color: white;
+    padding: 0 12px;
+   
+}
+
+.sec-2-div-3{
+    text-align: center;
+    margin-top: -70px;
+    width: 270px;
+    height: 220px;
+    background-color: rgb(127, 105, 161);
+    border: solid 2px slategrey;
+    z-index: 22;
+    overflow: hidden;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: none;
+    transition: 0.5s;
+}
+.sec-2-div-3:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: yellowgreen;
+}
+.sec-2-div-3:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-3:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-3:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-3:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-3:hover .p-hover{
+    display: block !important;
+}
+.sec-2-div-3:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-3:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-3:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-3:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-3:hover .p-hover{
+    display: block !important;
+}
+ i.bi-twitter::before{
+    margin-top: 35px;
+    padding: 12px;
+    color: rgb(127, 105, 161);
+    background-color: whitesmoke;
+    border-radius: 100%;
+    font-size: 32px;
+}
+.sec-2-div-3 p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.sec-2-div-3 span{
+    font-size: 14px;
+    color: white;
+    padding: 0 12px;
+   
+}
+
+
+.sec-2-div-4{
+    text-align: center;
+    margin-top: -70px;
+    width: 270px;
+    height: 220px;
+    background-color: rgb(159, 156, 163);
+    border: solid 2px slategrey;
+    z-index: 22;
+    overflow: hidden;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: none;
+    transition: 0.5s;
+}
+.sec-2-div-4:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: yellowgreen;
+}
+.sec-2-div-4:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-4:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-4:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-4:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-4:hover .p-hover{
+    display: block !important;
+}
+.sec-2-div-4:hover i.bi-heart-pulse{
+    display: none;
+}
+.sec-2-div-4:hover.sec-2-div-1 p{
+    display: none;
+}
+.sec-2-div-3:hover.sec-2-div-1 span{
+    display: none;
+}
+.sec-2-div-4:hover .hover-icon{
+    display: inline-block !important;
+    color: white;
+}
+.sec-2-div-4:hover .p-hover{
+    display: block !important;
+}
+ i.bi-hand-thumbs-up-fill::before{
+    margin-top: 35px;
+    padding: 12px;
+    color: rgb(159, 156, 163);
+    background-color: whitesmoke;
+    border-radius: 100%;
+    font-size: 32px;
+}
+.sec-2-div-4 p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.sec-2-div-4 span{
+    font-size: 14px;
+    color: white;
+    padding: 0 12px;
+   
+}
+.hover-icon{
+    color: white;
+    font-size: 80px;
+    padding-top: 45px;
+    display: none !important;
+}
+.p-hover{
+    font-size: 25px;
+    color: white;
+    display: none;
+}
